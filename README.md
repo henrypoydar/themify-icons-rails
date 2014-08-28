@@ -28,9 +28,13 @@ Include the css file in your `application.css`:
 
 (You will need to restart the application.)
 
-Add icons in your markup like so:
+Add icons in your markup using `ti_icon` view helper:
 
-    <span class="ti-download"></span>
+    ti_icon('download')
+
+which will geenrate the following markup:
+
+    <i class="ti ti-download"></i>
 
 All icons can be viewed at: http://themify.me/themify-icons
 
