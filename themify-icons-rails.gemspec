@@ -6,8 +6,6 @@ require 'themify-icons-rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "themify-icons-rails"
   spec.version       = ThemifyIcons::Rails::VERSION
-  spec.authors       = ["Henry Poydar"]
-  spec.email         = ["hpoydar@gmail.com"]
   spec.summary       = %q{Provides the Themify Icons web fonts for use in your Rails application.}
   spec.homepage      = "https://github.com/hpoydar/themify-icons-rails"
   spec.license       = "MIT"
